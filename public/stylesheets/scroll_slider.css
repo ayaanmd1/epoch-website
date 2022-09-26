@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+.scroll_btns{
+    position: fixed;
+    z-index: 1;
+    top: 40vh;
+    left: 93vw;
+    display: flex;
+    flex-direction:column ;
+    width: fit-content;
+}
+@media screen and (max-width:771px){
+    .scroll_btns{
+        display: none;
+    }
+}
+.scroll_btns button{
+    border: 2px solid #ff0000;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    margin:7px ;
+    transition: 0.2s;
+ 
+}
+.scroll_btns button:focus{
+    background-color: #ff0000;
+}
+.about_container_withimg{
+    /* background-color: darksalmon; */
+    padding: 15px;
+    border-radius:15px ;
+}

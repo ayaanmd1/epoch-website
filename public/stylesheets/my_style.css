@@ -1,0 +1,446 @@
+.header-for-mobileonly{
+    display: none;
+}
+.header-for-mobileonly a img{
+    
+    padding: 20px;
+    height: 100%;
+    width:45vw;
+}
+.OLCM{
+  display: flex;
+  flex-direction:row;
+}
+@media screen and (max-width:1268px){
+  .OLCM{
+    justify-content: center;
+  }
+  .OLCM img{
+    display: none;
+  }
+}
+#OLCM1{
+  min-width: 45vw;
+  max-width: 45vw;
+  padding: 30px;
+  border: none;
+  
+}
+#OLCM1 span{
+  font-size: 5.5em;
+  font-weight: bolder;
+  font-family: Bebas Neue;
+}
+#OLCM1 span:nth-child(1){
+  color: #fff;
+  
+}
+#OLCM1 span:nth-child(2){
+  color: #ff0000;
+}
+#OLCM1 p{
+  margin-bottom: 45px;
+  font-size: 1.2em;
+  
+}
+#OLCM1 a{
+  color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: red;
+}
+#OLCM1 a:hover{
+  background-color: darkred;
+  transition: 0.2s ease-in;
+  color: white;
+}
+.OLCM{
+  display: flex;
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  color: white;
+}
+.EPOCHLOGO{
+  min-width: 75%;
+  max-width: 75%;
+}
+@media screen and (max-width:900px) {
+    header{
+        display: none;
+    }
+    .OLCM{
+      background-image: none;
+      background-color: #1C1C1C; 
+ 
+    }
+    #OLCM1{
+      min-width: 80vw;
+    }
+    .header-for-mobileonly{
+        background-color:  #1C1C1C;
+        display: flex;
+        height: 15vh;
+        width: 100vw;
+    }    
+    .bg{
+      background-attachment: scroll !important;
+  }
+    .eventHeader span:nth-child(2){
+      max-width: 20%;
+      max-height: 100%;
+      padding: 0;
+  }
+
+  .instgEvHeader img{
+      height: 40%;
+      width: 40%;
+      margin-left: 15%;
+  }
+}
+
+.form-control:focus{
+    border:2px solid blue !important;
+    transition: 0.5s;
+}
+
+.about{
+    flex: none !important;
+    max-width: 100% !important;
+}
+
+.our_team_row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;   
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.our_team_col{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column ;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;   
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.contact_card{
+    padding: 15px;
+    min-width: 250px;
+    margin-top: 25px;
+    
+}
+.bg{
+    height: 500px;
+    background-image: url("../images/Us.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.carousel-item{
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 20vw;
+}
+/* @media screen and (min-width:375px){
+  .carousel-item{
+    object-fit: cover;
+  }
+  .carousel-item img{
+      object-fit:cover
+  }
+} */
+@media screen and (max-width:375px){
+  .carousel-item img{
+    width: 100%;
+  }
+}
+
+.carousel-inner{
+    align-items: center;
+    justify-content: center;
+    
+}
+.carousel-item img{
+    
+    align-self: center;
+    display: flex;
+    flex-shrink: inherit;
+    justify-content: center;
+    height: 75vh;
+    width: 60vw;
+    
+    
+    
+}
+.copyright{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0;
+    background-color:transparent;
+}
+.copyright_container p {
+    color: white;
+}
+.copyright_container p a {
+    color: white;
+}
+/* @media (min-width:){
+    .carousel-item img{
+        
+    }
+    margin-left: 35%;
+} */
+
+
+.overlay_btn{
+    margin-top: 150px;
+}
+
+.mean-container{
+    display: none;
+}
+
+.Contact{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-left: 15px;
+    width: 100% !important; 
+    background-color: white;
+}
+.titlepage3 h2{
+    color: black;
+}
+
+@media screen and (max-width:900px){
+    .Contact img{
+        display: none;
+    }
+}
+.form-control{
+    width: 400px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+.form-control-active{
+  border: 2px solid red;
+}
+
+/* @media screen and (max-width:900px){
+    .sub_contact{
+        background-color: grey;
+        border-radius: 15px;
+        padding: 15px;
+    }
+} */
+
+
+
+
+.btn {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+  }
+  .btn:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .content {
+    max-width: 700px;
+    width: 95%;
+    margin: 0 auto 40px;
+  }
+  .title {
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .submit-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .buttonsBlock {
+    margin-bottom: 40px;
+  }
+  .buttonsTitle {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .submit-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 54px;
+    font-size: 14px;
+    font-weight: 700;
+    color: linear-gradient(to right bottom, red 1%, yellow);;
+    text-transform: uppercase;
+    letter-spacing: 1.44px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .submit-button__pending,
+  .submit-button__loaded {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    opacity: 0;
+    visibility: hidden;
+  }
+   
+  .submit-button--1 {
+    background:white
+  }
+  
+  .submit-button__pending--1 {
+    display: block;
+  }
+  .submit-button__pending--1:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.6rem;
+    /* content: '\f110'; */
+  }
+  .submit-button__pending--1:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    content: '';
+    transform: scaleX(0);
+    transform-origin: left center;
+    background-image: linear-gradient(to right bottom, red 1%, yellow);
+    background-size: 100%;
+  }
+  .submit-button__pending--1.js-active {
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+    visibility: visible;
+  }
+  @keyframes pending-circle {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .submit-button__pending--1.js-active:before {
+    /* animation: pending-circle 1s infinite; */
+  }
+  .submit-button__pending--1.js-active:after {
+    transition-property: all;
+    transition-duration: 1.7s;
+    transition-timing-function: cubic-bezier(0, 0, 0.97, 0.13);
+    transition-delay: 0.1s;
+    transform: scaleX(1);
+  }
+  .submit-button__text--1.js-active {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .submit-button__loaded--1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .submit-button__loaded--1:before {
+    margin-right: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.4rem;
+    /* content: '\f00c'; */
+    transform: translate(-10px, -2px);
+  }
+  .submit-button__loaded--1 span {
+    transform: translateX(10px);
+  }
+  .submit-button__loaded--1.js-active {
+    transition: opacity .1s linear 2.1s;
+    opacity: 1;
+    visibility: visible;
+  }
+  .submit-button__loaded--1.js-active:before {
+    
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 2.15s;
+    transform: translate(0, -2px);
+  }
+  .submit-button__loaded--1.js-active span {
+    font-size: large;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 2.15s;
+    transform: translateX(0);
+  }
+  
+   
+  @keyframes pending-loader-circles {
+    0% {
+      opacity: .3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes pending-loader-moving {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(50px);
+    }
+  }
+  .sbtbtn{
+    font-size: large;
+  }
